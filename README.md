@@ -4,7 +4,7 @@
 
 This project can be installed on to your device via different mechanisms, these mechanisms are listed below in the order of ease.
 
-!. PIP Installs packages <b>aka</b> PIP Installation
+1. PIP Installs packages <b>aka</b> PIP Installation
 ```sh
 pip install git+https://github.com/demonkingswarn/waldl
 ```
