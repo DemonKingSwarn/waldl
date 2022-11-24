@@ -70,7 +70,7 @@ def get_results(e):
                     "sorting": sorting,
                     "atleast": atleast,
                     "ratios": ratios,
-                    "page": 1,
+                    "page": page_no,
                     "seed": seed
                 },
             ).text
