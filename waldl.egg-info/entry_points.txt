@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        waldl=waldl.__main__:__wal_dl__
+    
