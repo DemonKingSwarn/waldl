@@ -19,9 +19,7 @@ def determine_path() -> str:
 
     plt = platform.system()
     
-    if plt == "Windows":
-        return f"C://Users//{os.getenv('username')}//Downloads"
-    elif plt == "Linux" or plt == "Darwin":
+    if plt == "Linux" or plt == "Darwin":
         return expanduser("~/Downloads")
     else:
         print("[!] Unsupported OS")
